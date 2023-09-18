@@ -1,0 +1,428 @@
+:root {
+    --F_Font: 'Mooli', sans-serif;
+    --S_Font: "Baloo 2";
+    --th_Font: "Poppins";
+    --Four_Font:'Concert One', cursive;
+    --F_Color: #1f6c76;
+    --S_Color: #96774f;
+    /* Main Font*/
+}
+
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+/* St Constant */
+
+a {
+    text-decoration: none !important;
+}
+
+li {
+    list-style: none;
+}
+
+.font_1 {
+    font-family: var(--F_Font);
+}
+
+.font_3 {
+    font-family: var(--th_Font);
+}
+
+/* E Constant */
+
+
+
+/* ST header */
+
+header {
+
+    height: 950px;
+    background-image:
+        linear-gradient(to bottom, #00000091, #00000091),
+        url('../images/meeting.jpeg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 50px;
+
+}
+/* ST Menu Bar  */
+
+.btn_men{
+    border: none !important;
+    outline: none !important;
+    
+}
+.menu_bar{
+    color: #ffffff; 
+    font-size: 30px;
+    outline: none !important;
+}
+
+/* E Menu Bar  */
+
+
+.nav-bg-linear {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+}
+
+/* ST  NavBar */
+
+/* ST logo */
+.logo{
+    font-size: 40px !important;
+    font-family: var(--S_Font);
+    font-weight: bolder;
+    background-image:linear-gradient(102deg ,#f7c789  , #2dafc0  ) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* color: #f8ead9 !important; */
+}
+/* E logo */
+
+/* ST Menu */
+
+.P_R_LI {
+    color: aliceblue !important;
+    font-size: 18px !important;
+    font-weight: bold !important;
+    padding: 10px 20px !important;
+    letter-spacing: 0.5px;
+}
+
+
+.P_R_LI:hover {
+
+    color: #fff !important;
+
+}
+
+.Contact_Now {
+
+    background-color: #1f6c76 !important;
+    border-radius: 30px;
+}
+
+.Contact_Now:hover {
+
+    background-color: #96774f !important;
+    color: aliceblue !important;
+}
+
+.border-color-li:hover {
+    border-bottom: 2px inset #1f6c76 !important;
+}
+
+/* E Menu */
+
+
+/* E  NavBar */
+
+
+/* St arrow */
+/*
+.arrow {
+    background-color: transparent !important;
+    border: none !important;
+}
+
+.rigth_arrow {
+    position: absolute;
+    top: 45%;
+    right: 0.5%;
+}
+
+.left_arrow {
+    position: absolute;
+    top: 45%;
+    left: 0.5%;
+} 
+*/
+/* E arrow */
+
+
+/* ST txt_header */
+
+.contain_txt_header {
+    color: #fff;
+    font-family: var(--F_Font);
+}
+
+.contain_txt_header .title_txt {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.contain_txt_header .para_txt {
+    font-size: 17px;
+    margin-bottom: 30px;
+
+}
+
+/* ST btn Header */
+.btn_G_O a {
+    color: #fff;
+}
+
+.orange_button {
+    padding: 12px 30px;
+    background-color: #96774f;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+
+.green_button {
+    padding: 12px 30px;
+    background-color: #1f6c76;
+    border-radius: 5px;
+    font-size: 18px;
+
+}
+
+/* E btn Header */
+/* E txt_header */
+
+/* E Header */
+
+/* ------------------------------------------------------------------------------*/
+/* ST Section_1 */
+.Sec_1_title h1 {
+    letter-spacing: 1.5px;
+    font-size: 40px;
+    font-family: var(--S_Font);
+}
+
+
+.Cards_Edits {
+    box-shadow: 0px 11px 100px 7px rgba(0, 0, 0, 0.1);
+    border: none !important;
+}
+
+.color_txt_ata h5 {
+    color: #1f6c76 !important;
+
+}
+
+.color_txt_ata h2 {
+    color: #96774f !important;
+
+    font-weight: bolder !important;
+}
+
+/* E Section_1 */
+/* ------------------------------------------------------------------------------*/
+
+/* ST Section_2  */
+.cata_bg {
+    margin: 20px 0 !important;
+    padding: 70px 0;
+    background-image: url('../images/cta-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+
+}
+
+.txt_sec_2 {
+    font-size: 40px;
+    color: #fff;
+    font-weight: bold;
+    font-family: var(--th_Font);
+}
+
+/* E Section_2  */
+
+/* ------------------------------------------------------------------------------*/
+
+/* ST Section_3 */
+
+.about {
+    padding: 50px 0;
+
+}
+
+.SEC_3_title h3 {
+    color: #1f6c76;
+    letter-spacing: 1.5px;
+    font-family: var(--S_Font);
+}
+
+.SEC_3_title h1 {
+    color: #96774f;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: var(--th_Font);
+}
+
+.SEC_3_Explain h1 {
+    font-size: 40px;
+    letter-spacing: 1.5px;
+    font-weight: 400;
+    text-align: justify;
+    font-family: var(--th_Font);
+
+}
+
+.SEC_3_Explain p {
+    font-size: 20px;
+    margin: 40px 0;
+    letter-spacing: 0.5px;
+    font-family: var(--th_Font);
+
+
+}
+
+.contain_man {
+    height: 100%;
+    width: 100%;
+
+
+    border-radius: 100% 0 10% 1050%;
+}
+
+.contain_man img {
+    height: 100%;
+    width: 100%;
+}
+
+/* E Section_3 */
+
+/* ------------------------------------------------------------------------------*/
+
+/* ST Section_4 */
+
+.calculator_bg {
+    background-image: url('../images/calculator-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding: 80px 0;
+    font-family: var(--F_Font);
+
+}
+
+.Sec_4_title {
+  
+    letter-spacing: 5px;
+    font-family: var(--S_Font);
+}
+.Sec_4_title h1{
+  
+   color: #d1bb9e;
+}
+
+.Card-Person {
+    background-color: transparent !important;
+    border: none !important;
+    width: 18rem;
+}
+
+
+.Person_border {
+    border-radius: 50%;
+}
+
+.detalies_Person {
+    color: #fff !important;
+}
+
+
+/* E Section_4 */
+
+/* ------------------------------------------------------------------------------*/
+
+/* St Section_5 */
+
+
+
+.Sec_5_title h1 {
+    letter-spacing: 1px;
+    font-family: var(--S_Font);
+}
+
+.Sec_5_title h5 {
+    letter-spacing: 1.5px;
+    font-family: var(--S_Font);
+
+}
+
+.bor_radius {
+    border-radius: 20px;
+    background-color: #e4e4e4;
+    border: none;
+    outline: none;
+
+}
+
+.bor_radius:hover {
+    border: 2px dashed cadetblue;
+}
+
+.color_txt_input {
+    color: var(--F_Color);
+    font-family: var(--S_Font);
+    font-size: 15px;
+
+
+}
+
+
+.btn_Send {
+    padding: 10px 80px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: cadetblue;
+    color: #fff;
+    font-size: 15px;
+
+
+}
+
+
+/* E Section_5 */
+
+/* ------------------------------------------------------------------------------*/
+/* ST Footer */
+footer {
+    background-color: #212741;
+    background-image: url('../images/calculator-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    color: #fff;
+    font-family: var(--S_Font);
+
+}
+
+footer a {
+    color: #fff;
+}
+
+footer a:hover {
+    color: #ff511a;
+}
+.ch_Color{
+    color: #d1bb9e;
+}
+
+
+.last {
+    background-color: #181d30 !important;
+    padding: 20px 0;
+}
+
+.list_Contact_Us,
+.list_Pages {
+    font-size: 15px;
+}
+
+/* E Footer */
+/* ------------------------------------------------------------------------------*/
